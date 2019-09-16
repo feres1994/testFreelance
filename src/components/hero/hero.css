@@ -1,0 +1,24 @@
+.hero-main-style {
+  height: 110px;
+  font-size: 18px;
+  background-color: #ce2e2e;
+  color: white;
+}
+
+.hero-main-style .col-6:nth-child(odd) {
+  text-align: left !important;
+  padding: 20px;
+}
+
+.hero-main-style .col-6:nth-child(even) {
+  text-align: right !important;
+  padding: 20px;
+}
+.personal-data-button {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 29px;
+  width: 130px;
+  text-align: center;
+  margin-top: -8px;
+}

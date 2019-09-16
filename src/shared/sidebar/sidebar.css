@@ -1,0 +1,10 @@
+.sidebar-container {
+  position: fixed;
+  top: 190px;
+  left: 0;
+  z-index: 14444;
+  height: calc(100vh - 190px);
+  background-color: #ce392f;
+
+  transition: all 0.3s ease-in-out;
+}

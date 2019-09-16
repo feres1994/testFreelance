@@ -1,0 +1,57 @@
+/********overiding reactstrap's class***********/
+.main-header-style {
+  background-color: #ce2e2e !important;
+  height: 80px !important;
+  color: white !important;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.fa-home {
+  color: white !important;
+  font-size: 28px !important;
+}
+.nav-item a {
+  color: white !important;
+  font-size: 18px;
+}
+.navbar-toggler {
+  color: #ce2e2e !important;
+  border-color: #ce2e2e !important;
+}
+
+.insta-plus-container {
+  height: 100%;
+
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 18px;
+}
+.humberger {
+  width: 55px;
+  height: 27px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.humberger span {
+  width: 60%;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+/**********START MEDIA QUERIES**********/
+@media screen and (max-width: 540px) {
+  .insta-plus-container {
+    height: 100%;
+
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 18px;
+  }
+}
